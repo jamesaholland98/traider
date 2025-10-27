@@ -1,3 +1,7 @@
+# ======================
+# Node / Frontend
+# ======================
+
 # Logs
 logs
 *.log
@@ -137,3 +141,61 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# ======================
+# Python / Backend (FastAPI)
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# ======================
+# OS / System files
+# ======================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# Docker
+# ======================
+docker-compose.override.yml
+**/.docker/
+**/Dockerfile*
+**/docker-compose.yml
+**/docker-compose.yaml
+
+# ======================
+# Jupyter / notebooks (if used for data testing)
+# ======================
+.ipynb_checkpoints
+*.ipynb
+
+# ======================
+# Misc
+# ======================
+coverage/
+*.sqlite3
